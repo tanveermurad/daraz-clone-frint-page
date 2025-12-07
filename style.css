@@ -126,19 +126,20 @@ padding: 2px;
 
 
 .flash-main{
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
 background-color: white;
+
   
 }
 
 .product-card{
-    width: 100px;
-    height: 200px;
+    width: 230px;
+    height: 350px;
     display: inline-block;
 margin: 20px;
     text-align: center;
-    font-size: xx-small;
+    font-size: medium;
 
 }
 
@@ -148,8 +149,8 @@ margin: 20px;
 }
 
 .product-card img{
-    width: 100px;
-    height: 100px;
+    width: 230px;
+    height: 200px;
     margin-top: 0px;
 }
 
@@ -160,16 +161,19 @@ margin: 20px;
     flex-wrap: wrap;
 }
 h2{
-    margin-left: 300px;
+    margin-left: 200px;
     margin-bottom: 0%;
 
 }
 .category-card{
-    width: 100px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     text-align: center;
-    margin: 20px;
+
     font-size: medium;
+    border: 1px solid grey;
+    display:block;
+
 
 }
 .category-card:hover{
@@ -178,11 +182,13 @@ h2{
 }
 
 .category-card img{
-    width: 100px;
-    height: 100px;
-    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+margin-top: 10px;
 }
-
+.category-card span{
+    display: block;
+}
 
 .category-card h3{
     text-align: center;
@@ -247,26 +253,21 @@ footer p{
 }
 
 
-picture img{
-    width: 150px;
-    height: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .picture{
     display: flex;
     justify-content: start;
     align-items: center;
+    background-color: white;
 
 }
 
 .picture img{
-    width: 700px;
+    width: 1100x;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 300px;
-    
+    margin-left: 200px;
+    height: 300px;
     box-shadow: #FFE1D2 2px 2px 10px;
 }
 .picture img:hover{
@@ -275,10 +276,10 @@ picture img{
 }
 
 .animation img{
-    width: 900px;
+    width: 1100px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-right: 300px;
     
     box-shadow: #FFE1D2 2px 2px 10px;
@@ -294,7 +295,7 @@ picture img{
 .logo-daraz1{
     
 width: 180px;
-    height: 250px;
+    height: 300px;
     background-color: white;
 }
 .logo-daraz1 span{
@@ -313,3 +314,179 @@ width: 180px;
     color: #F85606;
     font-weight: bold;
 }
+
+
+
+@media screen and (max-width: 1400px) {
+
+    
+
+    .flash-main{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    h2{
+        margin-left: 100px;
+    }
+    .picture img{
+        margin-left: 100px;
+        width: 800px;
+        height: 250px;
+    }
+
+.logo-daraz1 {
+    display:none;
+    }
+    .animation img{
+       width: 800px;
+       height: 250px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .searchbar{
+        width: 350px;
+    }
+    
+    .navbar{
+        background-color: #F85606;
+        height: 100px;
+        margin-top: 0%;
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+     
+     
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .navbar{
+        background-color: #F85606;
+        height: 100px;
+        margin-top: 0%;
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        ;
+     
+     
+    }
+    header{
+        width: 100%;
+    }
+    
+
+    .flash-main{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    h2{
+        margin-left: 50px;
+    }
+    .picture img{
+        margin-left: 50px;
+        width: 600px;
+        height: 200px;
+    }
+.logo-daraz1 {
+    display:none;
+    }
+    .animation img{
+       width: 600px;
+       height: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .searchbar{
+        width: 250px;
+    }
+    /* header{
+        position: sticky;
+
+        top: 0;
+        margin: 0;
+        padding: 0;
+    } */
+    .tabs{
+        display: none;
+    }
+    .navbar{
+        background-color: #F85606;
+        height: 100px;
+        
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+     
+     
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 900px) {
+
+    
+
+    .flash-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h2{
+        margin-left: 20px;
+    }
+    .picture img{
+        margin-left: 20px;
+    }
+    .animation img{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .searchbar{
+        width: 200px;
+    }
+    
+}
+
+/* @media screen and (max-width: 300px) {
+
+    
+
+    .flash-main{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h2{
+        margin-left: 10px;
+    }
+    .picture img{
+        margin-left: 10px;
+        width: 250px;
+        height: 100px;
+    }
+    .animation img{
+       width: 250px;
+       height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .searchbar{
+        width: 150px;
+    }
+    
+} */
+/* 
+.top-banner{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+} */
+
+
+
